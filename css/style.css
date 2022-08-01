@@ -1,0 +1,60 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Teko', sans-serif;
+}
+
+body{
+  background-image: url(../img/svetlyy_fon_svet_tekstura_50370_1920x1080.jpg);
+}
+
+h1{
+  font-weight: 400;
+  text-align: center;
+  margin-top: 150px;
+  padding-right: 35px;
+}
+
+.js-counter {
+  font-weight: 400;
+  font-size: 30px;
+}
+
+.container{
+  width: 400px;
+  display: block;
+  margin: 0 auto;  
+  margin-top: 200px;
+  margin-bottom: 300px;
+}
+
+.buttons{
+  height: 50px;
+  width: 350px;
+  display: flex;
+  justify-content: space-between;
+  
+}
+button{
+  color: #708090;
+  background-color: #FAEBD7;
+  font-size: 16px;
+  font-weight: 400;
+  border: none;
+}
+
+button:hover{
+  color: #FAEBD7;
+  background-color: #708090;
+}
+
+.js-inc-btn, .js-decr-btn, .js-clear-btn{
+  width: 115px;
+}
+
+.js-counter{
+  margin-bottom: 35px;
+  margin-top: 120px;
+  margin-left: 43%;
+  font-weight: 400;
+}
